@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Sicc!</title>
+  <link rel="stylesheet" href="style.css" >
+  <script src="https://kit.fontawesome.com/6bb5d97301.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section>
+    <header>
+      <div class="toggle" onclick="menuToggle();"></div>
+    </header>
+    <div class="glass"></div>
+    <div class="content">
+      <h2>Travel Sicc!<br /><span>One platform, a thousand experiences</span></h2>
+      <div>
+        <p> Owing to the lockdown, innumerous travel plans have been affected. 
+          <br><br>
+          In an attempt to make right what the lockdown did wrong, <br><br>
+          this website allows the users to indirectly experience others' travel stories and share their own!
+          <br/><br>
+          Despite not being able to travel,<br> the site allows the users to live 
+          and cherish the little experiences that the others have had.
+          <br />
+          <br/>
+          You can view others' travel stories as well as share your own.
+          <br/><br>
+          This is your one stop destination to view places all over the earth.<br><br> Travel the world from the comfort of your couch!<br>
+          <br/>Want to post a blog/story but don't want to put in the efforts of a professional blogger?
+          <br/><br>Then this site is the apt place to make this come true.
+          <br/><br>You can share as less as just one story or you can share numerous travel experiences.
+          <br/><br/><br/>
+          <br/>
+          <b>What are you waiting for? Start exploring the world through our website!</b>
+      </p></div>
+    </div>
+    
+    
+    <video src="ocean.mp4" autoplay muted loop></video>
+    <ul class="navigation">
+      <li style="--i:1"><a href="#"><i class="fab fa-2x fa-facebook"></i>  Facebook</a></li>
+      <li style="--i:2"><a href="#"><i class="fab fa-2x fa-twitter-square"></i>  Twitter</a></li>
+      <li style="--i:3"><a href="#"><i class="fab fa-2x fa-instagram-square"></i>  Instagram</a></li>
+    </ul>
+    
+  
+  </section>
+  <script type="text/javascript">
+    function menuToggle() {
+      const toggleMenu=document.querySelector('.toggle');
+      const section=document.querySelector('section');
+      toggleMenu.classList.toggle('active');
+      section.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
